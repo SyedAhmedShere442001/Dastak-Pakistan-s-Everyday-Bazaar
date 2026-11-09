@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" fill="none" role="img" aria-label="Mehr Sports">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2b3a55"/>
+      <stop offset="1" stop-color="#7c94b8"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="rgba(255,255,255,.10)"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <rect width="800" height="1000" fill="url(#dots)"/>
+  <circle cx="80" cy="140" r="170" fill="none" stroke="rgba(255,255,255,.08)" stroke-width="2"/>
+  <circle cx="730" cy="850" r="220" fill="none" stroke="rgba(255,255,255,.07)" stroke-width="2"/>
+  <path d="M0 830 Q200 770 400 830 T800 830 V1000 H0 Z" fill="rgba(255,255,255,.04)"/>
+  <path d="M170 790 V490 A230 230 0 0 1 630 490 V790 Z" fill="rgba(255,255,255,.07)" stroke="rgba(255,255,255,.16)" stroke-width="2"/>
+  <path d="M195 790 V497 A205 205 0 0 1 605 497 V790 Z" fill="none" stroke="rgba(255,255,255,.08)" stroke-width="2" stroke-dasharray="3 14"/>
+  
+  <g fill="rgba(255,255,255,.5)" stroke="none">
+    <path d="M128 252 l6 18 18 6 -18 6 -6 18 -6 -18 -18 -6 18 -6 z"/>
+    <circle cx="674" cy="196" r="5"/>
+    <circle cx="700" cy="700" r="6" opacity=".45"/>
+    <circle cx="118" cy="760" r="4" opacity=".5"/>
+  </g>
+
+  <text x="400" y="92" text-anchor="middle" font-family="Verdana, Geneva, sans-serif" font-size="18" letter-spacing="6" fill="rgba(255,255,255,.66)">SPORTS</text>
+  <g stroke="rgba(255,255,255,.9)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    
+    <circle cx="400" cy="490" r="155" fill="rgba(255,255,255,.12)"/>
+    <path d="M400 380 L450 416 L431 476 H369 L350 416 Z" fill="rgba(255,255,255,.3)" stroke-width="8"/>
+    <path d="M400 380 V320 M450 416 L505 397 M431 476 L468 535 M369 476 L332 535 M350 416 L295 397" opacity=".55"/>
+    <path d="M295 397 C270 440 270 520 300 570 M505 397 C530 440 530 520 500 570" opacity=".3"/>
+  
+  </g>
+  <text x="400" y="878" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" letter-spacing="4" fill="rgba(255,255,255,.9)">MEHR SPORTS</text>
+  <line x1="360" y1="905" x2="440" y2="905" stroke="rgba(255,255,255,.35)" stroke-width="2"/>
+  <text x="400" y="940" text-anchor="middle" font-family="Verdana, Geneva, sans-serif" font-size="14" letter-spacing="5" fill="rgba(255,255,255,.5)">DASTAK · PAKISTAN</text>
+</svg>
